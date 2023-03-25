@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/background.jpg); 
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;  
+    padding: auto;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    float: left;
+    padding-left: 100px;
+}
+
+nav{
+    flex: 1;
+    padding: 30px 0 15px;
+    border-bottom: 1px solid #bababa;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a{
+    font-family: Georgia;
+    font-size: 17px;
+    text-decoration: none;
+    color: #333;
+    padding: 0 10px;
+    border: 1px solid transparent;
+}
+
+nav ul li a:hover{
+    background-color: #997950;
+    color: #000;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.container1 {
+    font-family: Georgia;
+    background-color:#f9e4d4; 
+    padding: 10px 20px 20px;
+    margin: 30px 50px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 0px rgba(63, 62, 62, 0.112);
+}
+
+.container1 h1{
+    text-align: center;
+}
+
+.bgr {
+    height: 820px;
+    background-color: #885c5c9c;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn-primary {
+    font-family: Georgia;
+    color: #ffffff;
+    background:#997950;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border:0;
+}
+
+.btn{
+    font-family: Georgia;
+    color: #ffffff;
+    background:#5d390a;
+    font-size: 16px;
+    border: 2px solid #000;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+}
+
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag{
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p{
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}

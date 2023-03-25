@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai | Signup</title>
+    <link rel="stylesheet" href="./css/login.css"/>
+  </head>
+  <body>
+
+    <div id="parent">
+      <h1>Registrasi</h1>
+
+      <form>
+        <label>Nama</label>
+        <input
+          type="text"
+          placeholder="nama"
+          id="userMobile"
+        />
+        <label>Email</label>
+        <input type="email" placeholder="@gmail.com" id="userEmail" />
+        
+        <label> Password</label>
+        <div id="show">
+          <img
+            src="./image/eye-slash-solid.svg"
+            alt="eye"
+            id="eye"
+            onclick="myFunction()"
+          />
+        </div>
+        <input type="password" placeholder="*****" id="userPassword" />
+        
+        <input style="border: none" type="submit" value="SIGN UP" />
+        <p>
+          sudah punya akun?
+          <a href="login.html" style="text-decoration: none">Login</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="./javascript/registrasi.js"></script>
