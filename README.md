@@ -12,6 +12,8 @@ Data hasil resigtrasi tersimpan di localStorage
 Halaman formulir untuk membeli produk
 ![form](https://user-images.githubusercontent.com/120194377/227745738-3345e70b-b0ac-46c4-835b-21cf2878e4cd.png)
 
+Data hasil pengisian formulir untuk membeli produk tersimpan di dalam sessionStorage
+![hasill form](https://user-images.githubusercontent.com/120194377/227746645-9ac8793d-3dff-4c03-911f-cf728cb9217b.png)
 
 Halaman hasil dari formulir pesanan
 ![hasil form](https://user-images.githubusercontent.com/120194377/227745750-ad4e6efe-98d3-45ca-853c-843d974dfcaa.png)
